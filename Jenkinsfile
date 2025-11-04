@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/<Adish1515>/jenkins-demo.git'
+                git branch: 'main', url: 'https://github.com/Adish1515/jenkins-demo.git'
             }
         }
         stage('Build') {
